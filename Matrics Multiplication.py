@@ -55,7 +55,7 @@ if __name__ == "__main__":
         
         try:
             row_str = r.split(',') # convert input into int and store them.
-            row = [int(ele) for ele in row_str]
+            row = [float(ele) for ele in row_str]
         except:
             print("invalid input")
             mA = []
@@ -89,7 +89,7 @@ if __name__ == "__main__":
             
             try:
                 row_str = r.split(',') # convert input into int and store them.
-                row = [int(ele) for ele in row_str]
+                row = [float(ele) for ele in row_str]
 
             except:
                 print("invalid input")
