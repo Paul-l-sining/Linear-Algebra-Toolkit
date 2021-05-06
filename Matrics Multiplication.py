@@ -55,9 +55,7 @@ if __name__ == "__main__":
         
         try:
             row_str = r.split(',') # convert input into int and store them.
-            row = []
-            for ele in row_str:
-                row.append(int(ele))
+            row = [int(ele) for ele in row_str]
         except:
             print("invalid input")
             mA = []
@@ -91,9 +89,8 @@ if __name__ == "__main__":
             
             try:
                 row_str = r.split(',') # convert input into int and store them.
-                row = []
-                for ele in row_str:
-                    row.append(int(ele))
+                row = [int(ele) for ele in row_str]
+
             except:
                 print("invalid input")
                 mB = []
